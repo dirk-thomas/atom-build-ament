@@ -1,0 +1,25 @@
+{
+  "name": "build-ament",
+  "main": "./lib/ament",
+  "version": "0.0.1",
+  "description": "Runs ament targets",
+  "repository": "https://github.com/dirk-thomas/atom-build-ament",
+  "license": "Apache-2.0",
+  "engines": {
+    "atom": ">=0.50.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^3.0.0"
+  },
+  "package-deps": [
+    "build"
+  ],
+  "providedServices": {
+    "builder": {
+      "description": "Description of the build configurations this package gives",
+      "versions": {
+        "1.0.0": "providingFunction"
+      }
+    }
+  }
+}
